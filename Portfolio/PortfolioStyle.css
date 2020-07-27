@@ -1,0 +1,537 @@
+
+.container{
+    
+    width: 1080px;
+    margin: auto;
+}
+    
+
+.clearfix{
+    clear: both;
+}
+    /* start header */ 
+
+.header .slider {
+    background-image: url(images/free-stock-photos-san-francisco-1080x720_1080x600.jpg);
+    background-size: 100%;              /*css3*/
+     -webkit-background-size: 100%;    /*css3*/
+    -moz-background-size: cover;       /*css3*/
+    -o-background-size: cover;        /*css3*/
+    height: 660px;
+}
+
+
+
+.header .slider .intro  {
+    padding-top: 300px;
+    text-align: center;
+    color: crimson;
+}
+
+.header .slider .intro h2 {  
+    margin: 0 auto; 
+    padding: 10px 0; 
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+
+
+.header .slider .intro button { 
+    background: none;
+    height: 50px;
+    font-size: 20px;
+    color: crimson;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+}
+
+.header .navbar{
+        background-color: #252E31;
+    color: #fff;
+       overflow: hidden;
+
+    }
+
+.header .navbar  h2 span{ color:#2ecc71; }
+
+.header .navbar ul{
+     list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.header .navbar ul li{
+   float: left;
+   padding: 10px;
+}
+
+
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}      
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{ color: #30b576;}
+
+            /* end header */ 
+
+
+
+
+            /*  Start Features  */
+
+.Features {
+    overflow: hidden;
+    padding: 30px 0px 50px;
+}
+
+
+.Features .feat {
+  
+    width: 33.33333%;
+    height:  150px;
+
+}
+
+.Features .feat h2 {
+    color: #555;
+   /* text-transform: uppercase;*/
+}
+
+.Features .feat p{ 
+ 
+    padding-right: 10px;
+}
+
+
+            /*  End Features  */
+
+
+            /*  Start about me  */
+
+
+.about { background-color: #f2f2f2; overflow: hidden; }
+
+
+.about .image{ width: 40%;} 
+
+
+
+.about .info{ width: 60%; } 
+
+
+.about .info h2{margin: 40px 0 20px 40px; color: #555;}
+
+
+.about .info > p{ margin: 0 0 20px 40px; } 
+
+
+.about .info > p:last-of-type{ margin-top: 30px } 
+
+
+
+
+.about .image img {width: 100%; margin-top: 60px;} 
+
+
+.about .info .hobbies{overflow: hidden; margin: 20px 0 0 40px;}
+
+
+
+
+.about .info .hobbies .content{
+    width: 50%;
+    min-height: 100px;
+}
+
+
+.about .info .hobbies .content h3{ color: #555; overflow: hidden;}
+
+
+.about .info .hobbies .content .icon{ 
+    width: 30px;
+    
+}
+
+.about .info .hobbies .content .icon img{ max-width: 100%; margin: 15px 10px 0 0;} 
+
+
+
+.about .info .hobbies .content .text{ 
+        width: 260px;
+    padding-left: 10px;
+
+}
+
+              /*  Start myskils   */
+
+.Myskils{
+     padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.Myskils .skils , .Myskils .progress{
+    width: 50%;
+}
+
+
+.Myskils .skils h2{margin: 40px 0 20px 40px; color: #555;}
+
+
+.Myskils .skils p{ margin: 0 0 20px 40px;  } 
+
+
+.Myskils .skils p:last-of-type{ margin-top: 30px } 
+
+.Myskils .skils button{
+   
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+ 
+.Myskils  .progress .tec{ margin-left: 50px;}
+
+
+.Myskils  .progress .tec h3{
+    color: #555;
+}
+
+
+.Myskils  .progress .tec div{
+    background-color: #f2f2f2; 
+    height: 25px;
+    
+    
+}
+.Myskils  .progress .tec div span{ 
+    background-color: #2dcc70 ;
+    height: 25px; 
+    display: block;
+    line-height: 25px; 
+    text-align: right;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+              /*  End myskils   */
+
+
+
+              /*  Start Resume   */
+.Resume{
+    background-color: #f2f2f2;
+     padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.Resume h2{margin: 40px 0 20px 40px; color: #555; font-weight: bold;}
+
+
+.Resume p{  padding: 0 40px;} 
+
+.Resume button{
+   margin-top: 15px; 
+}
+
+
+              /*  End Resume   */
+
+
+
+        /*  Start MyEducation   */
+
+.MyEducation{
+     padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+
+
+.MyEducation hr{margin: 20px 0 ; height: 1px; background-color: #999; border: 0; }
+
+
+.MyEducation .main {
+    width: 50%;
+    margin-right: 5%;
+}
+ 
+
+
+.MyEducation  .main h2{margin: 40px 0 20px 40px; color: #555;}
+
+
+.MyEducation  .main p{ margin: 0 0 20px 40px;  } 
+
+
+.MyEducation .main p:last-of-type{ margin-top: 30px } 
+
+ .MyEducation .exp{
+    float: left;
+    width: 45%;
+    
+}
+
+.MyEducation .exp h3{ margin-top: 80px; margin-bottom: 10px;}
+
+
+.MyEducation .exp span{ display: block; margin-bottom: 10px;}
+
+.MyEducation .exp span:first-of-type{color: #999;}
+
+.MyEducation .exp span:last-of-type{color: #fff ; background-color:#2dcc70 ; display: inline-block;
+    padding: 4px 10px;}
+
+
+
+
+              /*  End MyEducation   */
+
+
+
+
+   /*  Start testimonials   */
+.testimonials{
+    background-color: #f2f2f2;
+     padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.testimonials q { line-height: 1.8 ; color: #888 ; font-size: 18px; font-style: italic; font-weight: bold;}
+
+
+.testimonials h3{ color: #777;  margin-bottom: 30px;
+}
+
+.testimonials ul {
+    list-style: none ; 
+    text-align: center;
+    padding-left: 0;
+}
+
+
+.testimonials ul li {
+    height: 15px; 
+    width: 15px;
+    border: 2px solid #2dcc70 ; 
+    display: inline-block; 
+    cursor: pointer;
+}
+
+.testimonials ul li.active , .testimonials ul li:hover { background-color: #2dcc70 }
+
+              /*  End testimonials   */
+
+
+
+
+
+   /*  Start Portfolio   */
+
+.Portfolio{
+    
+    padding-bottom: 50px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+.Portfolio h2 {
+    color: #777;
+    
+}
+
+.Portfolio p {
+
+    margin-bottom: 30px;
+}
+
+.Portfolio .works{
+    
+    overflow: hidden;
+}
+
+
+.Portfolio .works > div{
+    
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px;    
+}
+
+
+.Portfolio .works > div img {
+    
+    width: 92%; 
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 12px #ccc ; 
+}
+
+
+
+      /*  End Portfolio   */
+
+
+
+
+   /*  Start Contact Me   */
+
+
+.Contactme{
+    background-color: #252f31;
+    overflow: hidden;
+    padding: 50px 0 70px 0;
+}
+
+.Contactme h2{
+    
+    color: #fff;
+    margin-left: 40px;
+}
+
+.Contactme .info {
+    width: 50%;
+    margin-right: 5%;
+}
+
+.Contactme p{ 
+    color: #6a6e71;
+    margin-left: 40px;
+
+}
+
+
+.Contactme p strong {color: #d1d6da}
+
+
+
+
+
+.Contactme .form {
+    width: 45%;
+} 
+
+.Contactme .form label {
+    display: block;
+    color: #d1d6da;
+    margin: 10px 0 ; 
+    font-weight: bold;
+
+}
+
+.Contactme .form input[type="text"] {
+    background-color: #4B5557;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px  ; 
+
+}
+
+.Contactme .form textarea{
+     background-color: #4B5557;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px  ; 
+    height: 300px;
+}
+
+.Contactme .form input[type="submit"] {
+      background-color: #191e22;
+    padding: 10px 20px;
+    color: #fff;
+    border: 0;
+    margin-top: 10px; 
+    width: 35%;
+    font-weight: bold;
+}
+
+ /*  End Contact Me    */
+
+
+
+
+   /*  Start footer   */
+
+
+.Footer {
+    background-color: #191e22;
+    color:  #6a6e71;
+    
+    padding: 20px 0;
+    text-align: center;
+        
+}
+
+.Footer ul {list-style: none; 
+padding-left: 0;
+    margin: 10px 0 0;
+}
+
+
+.Footer ul li{display: inline-block ; }
+
+
+.Footer ul li img{width: 40px;}
+ /*  End footer  */
+
+
+
+
+   /*  Start Freamwork   */
+
+
+
+.mybutton{
+    background: none ;
+    color:  #2dcc70 ; 
+    border:  3px solid #2dcc70 ;
+    font-weight: bold;
+    padding: 10px 30px ; 
+}
+
+
+
+.fl-left{float: left;}
+
+
+p {
+    line-height: 1.7;
+    color: #666; }
+   /*  End Freamwork   */
+
+
+/*by Mohammed Salah*/
+
+
+
+
+
+
+
+
+
+
+
